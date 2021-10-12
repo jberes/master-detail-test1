@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
-import { FullNorthwindCustomers } from './full-northwind-customers';
+import { Northwind } from './northwind';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-export class FullNorthwindCustomersService {
+export class NorthwindService {
   getData(tableName: string): Observable<any[]> {
     // replace with HttpClient.get(ENDPOINT_URL);
-    return of(FullNorthwindCustomers[tableName]);
+    return of(Northwind[tableName]);
   }
 }
