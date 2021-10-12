@@ -1,0 +1,36 @@
+<div class="row-layout row">
+  <igx-grid [data]="fullNorthwindCustomersCustomers" [allowFiltering]="true" filterMode="excelStyleFilter" [autoGenerate]="false" width="100%" height="100%" displayDensity="cosy" primaryKey="OrderID" class="grid">
+    <igx-column field="OrderID" header="OrderID" title="OrderID" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="CustomerID" header="CustomerID" title="CustomerID" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="EmployeeID" header="EmployeeID" title="EmployeeID" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="OrderDate" header="OrderDate" title="OrderDate" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="RequiredDate" header="RequiredDate" title="RequiredDate" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="ShippedDate" header="ShippedDate" title="ShippedDate" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipVia" header="ShipVia" title="ShipVia" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="Freight" header="Freight" title="Freight" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="ShipName" header="ShipName" title="ShipName" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipAddress" header="ShipAddress" title="ShipAddress" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipCity" header="ShipCity" title="ShipCity" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipRegion" header="ShipRegion" title="ShipRegion" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipPostalCode" header="ShipPostalCode" title="ShipPostalCode" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipCountry" header="ShipCountry" title="ShipCountry" dataType="string" [sortable]="true"></igx-column>
+  </igx-grid>
+</div>
+<div class="row-layout row">
+  <igx-grid [data]="fullNorthwindOrdersOrders" [allowFiltering]="true" filterMode="excelStyleFilter" [autoGenerate]="false" width="100%" height="100%" displayDensity="cosy" primaryKey="OrderID" class="grid">
+    <igx-column field="OrderID" header="OrderID" title="OrderID" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="CustomerID" header="CustomerID" title="CustomerID" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="EmployeeID" header="EmployeeID" title="EmployeeID" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="OrderDate" header="OrderDate" title="OrderDate" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="RequiredDate" header="RequiredDate" title="RequiredDate" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="ShippedDate" header="ShippedDate" title="ShippedDate" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipVia" header="ShipVia" title="ShipVia" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="Freight" header="Freight" title="Freight" dataType="number" [sortable]="true"></igx-column>
+    <igx-column field="ShipName" header="ShipName" title="ShipName" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipAddress" header="ShipAddress" title="ShipAddress" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipCity" header="ShipCity" title="ShipCity" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipRegion" header="ShipRegion" title="ShipRegion" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipPostalCode" header="ShipPostalCode" title="ShipPostalCode" dataType="string" [sortable]="true"></igx-column>
+    <igx-column field="ShipCountry" header="ShipCountry" title="ShipCountry" dataType="string" [sortable]="true"></igx-column>
+  </igx-grid>
+</div>
